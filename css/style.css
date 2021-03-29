@@ -26,18 +26,21 @@ html {
 /*Navigation and logo*/
 /*-----------*/
 
+nav {
+  overflow: hidden;
+  padding: 30px 0;
+  margin-bottom: 136px;
+}
+
 .logo {
   height: 24px;
-  width: 81px;
-  margin: 28.91px;
+  width: auto;
   float: left;
-  margin-top: 28.91 0 150 144;
 }
 
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 32px;
 }
 
 .main-nav li,
@@ -136,12 +139,8 @@ header {
 }
 
 .hero-text-box {
-  position: absolute;
-  width: 1000px;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
+  margin-bottom: 87px;
 }
 
 .header-text {
@@ -170,7 +169,21 @@ header {
 /*Laptop-Graphic*/
 /*-----------*/
 
-.tools {
+.header-graphic {
+  /* position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%); */
+  text-align: center;
+}
+
+.header-graphic img {
+  width: 947px;
+  height: auto;
+  margin-bottom: 74px;
+}
+
+.header-graphic h2 {
   font-size: 24px;
   font-family: "Inter";
   font-style: normal;
@@ -180,18 +193,4 @@ header {
   color: #000000;
   margin-bottom: 12px;
   font-weight: 600;
-}
-
-.header-graphic {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.header-graphic img {
-  width: 947px;
-  height: auto;
-  margin-bottom: 74px;
 }
