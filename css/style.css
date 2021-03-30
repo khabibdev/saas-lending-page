@@ -22,6 +22,10 @@ html {
   margin: 0 auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
 /*-----------*/
 /*Navigation and logo*/
 /*-----------*/
@@ -53,7 +57,7 @@ nav {
   padding: 3px 0;
   color: #3b3a40;
   text-decoration: none;
-  font-size: 70%;
+  font-size: 14px;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
 }
@@ -135,7 +139,6 @@ nav {
 header {
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 
 .hero-text-box {
@@ -166,14 +169,10 @@ header {
 }
 
 /*-----------*/
-/*Laptop-Graphic*/
+/*header-graphic*/
 /*-----------*/
 
 .header-graphic {
-  /* position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translateX(-50%); */
   text-align: center;
 }
 
@@ -193,4 +192,84 @@ header {
   color: #000000;
   margin-bottom: 12px;
   font-weight: 600;
+}
+/* -----------------*/
+/*Workspase-Section*/
+/*-----------------*/
+
+.section-workspace {
+}
+
+/*-----------------*/
+/*Workspase-text-box*/
+/*-----------------*/
+
+.workspace-text-box {
+  background-size: auto;
+  float: left;
+
+  width: 50%;
+}
+
+.workspace-title {
+  font-family: "Libre Baskerville";
+  font-size: 60px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.workspace-subtitle {
+  font-family: "Inter";
+  font-size: 20px;
+  color: #64626a;
+  margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.workspace-features-title {
+  height: 24px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 4px;
+}
+.workspace-features-subtitle {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 26px;
+  color: #64626a;
+}
+
+.workspace-graph {
+  width: 50%;
+  float: right;
+  background-color: #f5f6f9;
+}
+
+.workspace-graph img {
+  height: 508px;
+  width: auto;
+}
+
+.workspace-features {
+  padding-left: 30px;
+}
+
+.workspace-feature-item {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 14px;
+  width: 80%;
+}
+
+.workspace-feature-item--selected {
+  border-bottom: 2px solid #fa6402;
+  padding-bottom: 16px;
+}
+
+.chevron-forward {
+  position: absolute;
+  left: -30px;
 }
