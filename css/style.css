@@ -343,3 +343,71 @@ nav {
 /*-----------------*/
 /*Section-focus*/
 /*-----------------*/
+
+.focus-text-box {
+  background-size: auto;
+  float: left;
+  width: 50%;
+}
+
+.focus-title {
+  font-family: "Libre Baskerville";
+  font-size: 60px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.focus-subtitle {
+  font-family: "Inter";
+  font-size: 20px;
+  color: #64626a;
+  margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.focus-features-title {
+  height: 24px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 4px;
+}
+.focus-features-subtitle {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 26px;
+  color: #64626a;
+}
+
+.focus-graph {
+  width: calc(50% - 40px);
+  float: right;
+}
+
+.focus-graph img {
+  height: auto;
+  width: 100%x;
+}
+
+.focus-features {
+  padding-left: 30px;
+}
+
+.focus-feature-item {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 14px;
+  width: 80%;
+  padding-bottom: 16px;
+}
+
+.focus-feature-item--selected {
+  border-bottom: 2px solid #fa6402;
+}
+
+.chevron-forward {
+  position: absolute;
+  left: -30px;
+}
