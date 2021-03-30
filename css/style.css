@@ -13,15 +13,24 @@ html {
   font-weight: 400;
   font-size: 20px;
 }
+
+/* .clearfix {
+  zoom: 1;
+} */
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
 /*-----------*/
 /*Reusable Components*/
 /*-----------*/
-
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
-
 section {
   padding: 80px 0;
 }
@@ -31,8 +40,9 @@ section {
 /*-----------*/
 
 nav {
-  overflow: hidden;
-  padding: 30px 0;
+  max-width: 1140px;
+  padding: 31px 0;
+  margin: 0 auto;
   margin-bottom: 136px;
 }
 
@@ -45,24 +55,25 @@ nav {
 .main-nav {
   float: right;
   list-style: none;
+  font-family: "Inter";
 }
 
-.main-nav li,
-.btn-try {
+.main-nav li {
   display: inline-block;
   margin-left: 36px;
 }
-.main-nav li a:link,
-.main-nav li a:visited {
-  padding: 3px 0;
+
+.main-nav-links:link,
+.main-nav-links:visited {
+  padding-bottom: 5px;
   color: #3b3a40;
   text-decoration: none;
   font-size: 14px;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
 }
-.main-nav li a:hover,
-.main-nav li a:active {
+.main-nav-links:hover,
+.main-nav-links:active {
   border-bottom: 2px solid #ff6846;
 }
 
@@ -89,6 +100,12 @@ nav {
   line-height: 16px;
 }
 
+.btn-full:hover,
+.btn-full:active {
+  background-color: #ff3102;
+  color: #fff;
+}
+
 .btn-ghost:link,
 .btn-ghost:visited {
   background-color: #ffffff;
@@ -100,33 +117,26 @@ nav {
   padding: 20px 22px;
 }
 
-.btn-sm-full:link,
-.btn-sm-full:visited {
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 4px;
-  border: 1px solid #8e8c95;
-  font-size: 14px;
-  margin-left: 36px;
-  text-decoration: none;
-  padding: 10px 13px;
-}
-
-.btn:hover,
-.btn:active {
-  background-color: #ff3102;
-  color: #fff;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
+.btn-ghost:active,
+.btn-ghost:hover {
   background-color: #ff3102;
   color: #fff;
   border-color: #ff3102;
 }
 
-.btn-sm-full:hover,
-.btn-sm-full:active {
+.btn-sm-ghost:link,
+.btn-sm-ghost:visited {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  border: 1px solid #8e8c95;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 13px;
+}
+
+.btn-sm-ghost:hover,
+.btn-sm-ghost:active {
   background-color: #ff3102;
   color: #fff;
   border-color: #ff3102;
@@ -135,11 +145,6 @@ nav {
 /*-----------*/
 /*Header*/
 /*-----------*/
-
-header {
-  background-size: cover;
-  background-position: center;
-}
 
 .hero-text-box {
   text-align: center;
@@ -193,12 +198,6 @@ header {
   margin-bottom: 12px;
   font-weight: 600;
 }
-/* -----------------*/
-/*Workspase-Section*/
-/*-----------------*/
-
-.section-workspace {
-}
 
 /*-----------------*/
 /*Workspase-text-box*/
@@ -207,7 +206,6 @@ header {
 .workspace-text-box {
   background-size: auto;
   float: left;
-
   width: 50%;
 }
 
@@ -262,14 +260,86 @@ header {
   padding-bottom: 16px;
   margin-bottom: 14px;
   width: 80%;
+  padding-bottom: 16px;
 }
 
 .workspace-feature-item--selected {
   border-bottom: 2px solid #fa6402;
-  padding-bottom: 16px;
 }
 
 .chevron-forward {
   position: absolute;
   left: -30px;
 }
+
+/*-----------------*/
+/*Section-Roles*/
+/*-----------------*/
+.roles-text-box {
+  text-align: center;
+  margin-bottom: 87px;
+}
+
+.roles-header-text {
+  margin-bottom: 24px;
+  font-family: "Libre Baskerville";
+  font-size: 60px;
+  color: #000000;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+.roles-text-p {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  font-style: normal;
+  color: #64626a;
+}
+.roles-links-item {
+  position: relative;
+  width: 33.333%;
+  float: left;
+  padding-top: 24px;
+  padding-left: 23px;
+  border-top: 2px solid #d1d0d6;
+  padding-bottom: 64px;
+}
+
+.roles-links-title {
+  height: 24px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 4px;
+}
+.roles-links-subtitle {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 26px;
+  color: #64626a;
+}
+
+.roles-links-item--selected {
+  border-top: 2px solid #fa6402;
+}
+
+.chevron-forward-roles {
+  position: absolute;
+  left: -6px;
+}
+
+.roles-link-img {
+  width: 1140px;
+  height: auto;
+}
+
+/*-----------------*/
+/*Section-focus*/
+/*-----------------*/

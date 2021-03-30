@@ -14,19 +14,17 @@
 
 <body>
     <header>
-        <nav>
-            <div class="row">
-                <img src="images/logo.svg" alt="Logo" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Download</a></li>
-                    <li><a href="#">Login</a></li>
-                    <a class="btn-sm btn-sm-full" href="#">Try for free</a></li>
-                </ul>
-            </div>
+        <nav class="clearfix">
+            <img src="images/logo.svg" alt="Logo" class="logo">
+            <ul class="main-nav">
+                <li><a class="main-nav-links" href="#">About Us</a></li>
+                <li><a class="main-nav-links" href="#">Product</a></li>
+                <li><a class="main-nav-links" href="#">Pricing</a></li>
+                <li><a class="main-nav-links" href="#">Contact</a></li>
+                <li><a class="main-nav-links" href="#">Download</a></li>
+                <li><a class="main-nav-links" href="#">Login</a></li>
+                <li><a class="btn-sm btn-sm-ghost" href="#">Try for free</a></li>
+            </ul>
         </nav>
         <div class="hero-text-box">
             <h1 class="header-text">Simpler tool that freedom <br> your work way.</h1>
@@ -46,7 +44,7 @@
 
     </header>
     <section class="section-workspace ">
-        <div class="row">
+        <div class="row clearfix">
             <div class="workspace-text-box">
                 <h1 class="workspace-title">Build your <br>own workspace</h1>
                 <p class="workspace-subtitle">It will take a couple of hours, but will save your <br> company weeks in
@@ -54,24 +52,29 @@
                 </p>
                 <div class="workspace-features ">
 
-                    <div class="workspace-feature-item ">
+                    <div class="workspace-feature-item workspace-feature-item--selected">
                         <ion-icon name="chevron-forward-outline" class="chevron-forward"></ion-icon>
                         <h3 class="workspace-features-title">
                             Create
                         </h3>
-                        <p class="workspace-features-subtitle workspace-feature-item--selected">Easy-to-use apps for
-                            each team with no code </p>
+                        <p class="workspace-features-subtitle ">
+                            Easy-to-use apps for
+                            each team with no code
+                        </p>
                     </div>
-                    <div class="workspace-feature-item">
+                    <div class="workspace-feature-item ">
                         <h3 class=" workspace-features-title">Organize</h3>
-                        <p class="workspace-features-subtitle">Work into custom hierarchies, fields and formulas
+                        <p class="workspace-features-subtitle">
+                            Work into custom hierarchies, fields and formulas
                         </p>
                     </div>
                     <div class="workspace-feature-item">
                         <h3 class=" workspace-features-title">Visualiza</h3>
-                        <p class="workspace-features-subtitle">Workflows with Tables, Boards, Timelines,
+                        <p class="workspace-features-subtitle">
+                            Workflows with Tables, Boards, Timelines,
                             Charts
-                            & more.</p>
+                            & more.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -79,8 +82,34 @@
                 <img src="images/workspace.svg" alt="Workspace graphics">
             </div>
         </div>
-
     </section>
+    <section class="section-roles">
+        <div class="roles-text-box">
+            <h1 class="roles-header-text">Bring all the roles together.</h1>
+            <p class="roles-text-p">We believe in autonomous teams that own their <br> work and their piece of
+                workspace.</p>
+        </div>
+        <div class="row clearfix">
+            <div class="roles-links-item roles-links-item--selected">
+                <ion-icon name="chevron-forward-outline" class="chevron-forward-roles"></ion-icon>
+                <h3 class="roles-links-title ">Align</h3>
+                <p class="roles-links-subtitle">Ideas and knowledge with real-time <br> collaborative wiki.</p>
+            </div>
+            <div class="roles-links-item">
+                <h3 class="roles-links-title">Link</h3>
+                <p class="roles-links-subtitle">Visually by building roadmaps that <br> are always up-to-date.</p>
+            </div>
+            <div class="roles-links-item ">
+                <h3 class="roles-links-title">Decentralize</h3>
+                <p class="roles-links-subtitle">Smoothly when everybody knows <br> what's important.</p>
+            </div>
+            <div roles-link-img>
+                <img src="images/roles.svg" alt="roles-graphic">
+            </div>
+        </div>
+    </section>
+
+
 
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
