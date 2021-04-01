@@ -301,13 +301,17 @@ nav {
   color: #64626a;
 }
 .roles-links-item {
-  position: relative;
   width: 33.333%;
   float: left;
   padding-top: 24px;
   padding-left: 23px;
   border-top: 2px solid #d1d0d6;
   padding-bottom: 64px;
+  cursor: pointer;
+}
+
+.roles-links-item:hover {
+  border-top: 2px solid #fa6402;
 }
 
 .roles-links-title {
@@ -410,4 +414,152 @@ nav {
 .chevron-forward {
   position: absolute;
   left: -30px;
+}
+
+/*-----------------*/
+/*Section-Comments*/
+/*-----------------*/
+.testimonials-title {
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 74px;
+  font-style: normal;
+  float: left;
+  margin-bottom: 72px;
+}
+.apostrophe {
+  width: 94px;
+  height: auto;
+  float: left;
+  margin-right: 36px;
+}
+
+.testimonial-box {
+  width: 33.333%;
+  height: 250px;
+  float: left;
+  position: relative;
+  margin-bottom: 236px;
+}
+
+.testimonial-box:first-child {
+  padding-right: 23px;
+}
+
+.testimonial-box:nth-child(3) {
+  padding-left: 30px;
+}
+
+.testimonial-box:nth-child(2) {
+  border-left: 1px solid #d1d0d6;
+  border-right: 1px solid #d1d0d6;
+  padding-left: 30px;
+  padding-right: 23px;
+}
+
+.testimonial-text {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #3b3a40;
+}
+
+.testimonial-author {
+  position: absolute;
+  bottom: 0;
+}
+.author-details {
+  float: left;
+}
+
+.author-name {
+  font-family: "Libre Baskerville";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3b3a40;
+  margin-bottom: 6px;
+}
+
+.author-position {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1px;
+}
+
+.author-image {
+  margin-right: 12px;
+  float: left;
+}
+.testimonial-stats {
+  width: 100%;
+  display: inline-block;
+}
+.stats-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+  color: #8e8c95;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.stats-numbers {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.stats-numbers:not(:last-child) {
+  margin-bottom: 124px;
+}
+
+.stats-numbers-title {
+  width: max-content;
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 100px;
+  line-height: 124px;
+  color: #000000;
+  position: relative;
+  z-index: 124px;
+}
+.stats-numbers-subtitle {
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8e8c95;
+  text-align: center;
+}
+
+.stats-numbers-title::after {
+  display: block;
+  content: " ";
+  height: 19px;
+  width: 100%;
+  background: #ffdea7;
+  position: absolute;
+  bottom: 19px;
+  z-index: -1;
+}
+.row-stats {
+  width: 50%;
+  float: left;
+}
+
+.row-stats:last-child {
+  width: 50%;
+  float: right;
+  position: relative;
+  top: 100px;
+}
+
+.section-testimonials {
+  padding-bottom: 180px;
 }
