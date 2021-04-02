@@ -632,6 +632,7 @@ nav {
 }
 .pricing-wrapper {
   border: 1px solid #d1d0d6;
+  margin-bottom: 48px;
 }
 .pricing-type-1,
 .pricing-type-2,
@@ -726,4 +727,70 @@ nav {
 .btn-medium:active {
   background-color: #ff3102;
   color: #fff;
+}
+
+.pricing-enterprise {
+  background-color: #f5f6f9;
+  border-radius: 12px;
+  padding: 0px 195px;
+  height: 112px;
+  margin-bottom: 46px;
+}
+
+.pricing-enterprise-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3b3a40;
+  margin-bottom: 4px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.pricing-enterprise-subtitle {
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #64626a;
+  display: inline-block;
+}
+.pricing-enterprise-text {
+  float: left;
+  position: relative;
+  top: 40px;
+}
+.contact-btn {
+  float: right;
+}
+
+.contact-btn .btn-sm-ghost {
+  display: inline-block;
+  position: relative;
+  top: 35px;
+}
+.enterprise-under-text {
+  text-align: center;
+  margin-bottom: 160px;
+}
+.enterprise-under-title {
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #64626a;
+  margin-bottom: 16px;
+}
+.link-compare {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  letter-spacing: 0.175px;
 }
