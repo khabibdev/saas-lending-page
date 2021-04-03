@@ -61,7 +61,10 @@ html {
     margin-bottom: 12px;
     font-weight: 600;
 }
-
+.play-sharp-icon {
+    line-height: 16px;
+    font-size: 16px;
+}
 /*-----------------*/
 /*Workspase-text-box*/
 /*-----------------*/
