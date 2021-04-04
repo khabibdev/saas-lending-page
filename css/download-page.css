@@ -1,7 +1,17 @@
-header {
-    width: auto;
-    height: 820px;
+.download-page-header {
+    position: relative;
+}
+
+.download-page-header-background {
+    position: absolute;
+    height: 840px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #fff6f4;
+    z-index: -100;
 }
 
 .hero-text-box {
@@ -40,8 +50,8 @@ header {
 }
 
 .header-graphic img {
-    width: 947px;
-    height: auto;
+    width: auto;
+    height: 540px;
     margin-bottom: 74px;
 }
 .chevron-down-download {
@@ -85,4 +95,61 @@ header {
 .header-subtitle-2 {
     float: right;
     width: 50%;
+}
+
+.download-guide-title {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.download-options-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.download-options-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #64626a;
+    margin-bottom: 30px;
+}
+
+.download-options-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ff6846;
+}
+.two-fingers,
+.lights-logo,
+.sun-logo {
+    margin-bottom: 38px;
+}
+.download-options-1 {
+    width: 50%;
+    float: left;
+}
+
+.download-options-2 {
+    width: 50%;
+    float: right;
+}
+
+.download-options {
+    margin-bottom: 84px;
+    text-align: center;
 }
