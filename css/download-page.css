@@ -153,3 +153,154 @@
     margin-bottom: 84px;
     text-align: center;
 }
+/*-----------*/
+/*try-web-app-section*/
+/*-----------*/
+
+.try-app {
+    background-color: #f5f6f9;
+    padding: 0 68px;
+    height: 238px;
+}
+.app-title {
+    width: 50%;
+    float: left;
+    height: auto;
+    margin-top: 60px;
+}
+.app-title-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    color: #3b3a40;
+    margin-bottom: 16px;
+}
+.app-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #64626a;
+    text-align: left;
+}
+.enter-email {
+    float: left;
+    margin-top: 84px;
+    margin-right: 24px;
+}
+
+.email {
+    width: 272px;
+    height: 60px;
+    border: 1px solid #8e8c95;
+}
+input,
+select,
+textarea {
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 19px;
+    color: #b3b1b7;
+}
+
+.try-app-button {
+    float: left;
+    margin-top: 84px;
+    margin-bottom: 94px;
+}
+
+.try-app-button .btn-full {
+    margin-right: 0;
+    width: 170px;
+    height: 60px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding: 20 21;
+}
+/*-----------*/
+/*Ask-questions-section*/
+/*-----------*/
+.ask-questions-text {
+    float: left;
+    width: 50%;
+}
+.ask-questions-title {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 68px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.ask-questions-subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #64626a;
+    margin-bottom: 52.78px;
+}
+.ask-questions-links {
+    color: #ff6846;
+}
+
+.ask-questions-options {
+    float: right;
+    width: 50%;
+    margin-bottom: 119.78px;
+}
+.different-plan,
+.plan-for-free,
+.notion-for-free,
+.student-discounts {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3b3a40;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.04);
+    padding: 24px 40px;
+    width: 673px;
+}
+
+.guest-limit {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ff6846;
+    margin-bottom: 14px;
+}
+
+.guest-limit-upgrade {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #64626a;
+}
+
+.guest-limit-question {
+    background-color: #ffffff;
+    box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    width: 673px;
+    height: 200px;
+    padding: 24px 40px;
+}
+.add-sign,
+.remove-sign {
+    float: right;
+    padding-top: 10px;
+}
