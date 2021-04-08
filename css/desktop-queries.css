@@ -1,0 +1,139 @@
+/* From big tablets to 1200 px: From 1024 */
+@media only screen and (max-width: 1156px) {
+    .row {
+        max-width: 1023px;
+        margin: 0 auto;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    /*-----------------*/
+    /*section-workspace*/
+    /*-----------------*/
+
+    .workspace-title,
+    .workspace-subtitle {
+        text-align: center;
+    }
+
+    .workspace-subtitle {
+        margin-bottom: 40px;
+    }
+    .workspace-text-box,
+    .workspace-graph {
+        float: none;
+        width: 100%;
+    }
+    .workspace-feature-item {
+        width: 33.333%;
+        float: left;
+        margin-bottom: 68px;
+    }
+    .workspace-graph {
+        text-align: center;
+    }
+    .workspace-graph img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*-------------*/
+    /*section-roles*/
+    /*------------ */
+
+    .roles-link-img {
+        width: 100%;
+    }
+    .roles-link-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*-------------*/
+    /*section-focus*/
+    /*------------ */
+    .focus-title,
+    .focus-subtitle {
+        text-align: center;
+    }
+    .focus-title {
+        margin-bottom: 14px;
+    }
+    .focus-subtitle,
+    .focus-feature-item {
+        margin-bottom: 48px;
+    }
+    .focus-text-box,
+    .focus-graph {
+        float: none;
+        width: 100%;
+    }
+
+    .focus-feature-item {
+        width: 30%;
+        float: left;
+        margin-right: 30px;
+    }
+    .focus-graph {
+        width: auto;
+    }
+    .focus-graph img {
+        width: 100%;
+        height: auto;
+    }
+    .chevron-forward {
+        margin-right: 15px;
+    }
+    .focus-feature-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .focus-feature-subtitle {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /*-------------*/
+    /*section-pricing*/
+    /*------------ */
+
+    .pricing-title {
+        margin-bottom: 20px;
+    }
+
+    .pricing-subtitle {
+        margin-bottom: 49px;
+    }
+    .pricing-wrapper {
+        border: none;
+        margin-bottom: 48px;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+    .pricing-type-1,
+    .pricing-type-2 {
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    .pricing-type-3,
+    .pricing-type-4 {
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    .pricing-type-1,
+    .pricing-type-2,
+    .pricing-type-3,
+    .pricing-type-4 {
+        border: 1px solid #d1d0d6;
+    }
+    .pricing-enterprise {
+        width: auto;
+        margin-bottom: 32px;
+    }
+    .enterprise-under-title {
+        margin-bottom: 24px;
+    }
+}

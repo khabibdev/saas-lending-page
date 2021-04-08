@@ -215,9 +215,9 @@ html {
 /*-----------------*/
 
 .focus-text-box {
-    background-size: auto;
     float: left;
-    width: 50%;
+    width: calc(50% - 40px);
+    margin-right: 40px;
 }
 
 .focus-title {
@@ -252,22 +252,17 @@ html {
 }
 
 .focus-graph {
-    width: calc(50% - 40px);
-    float: right;
+    width: 50%;
+    float: left;
 }
 
 .focus-graph img {
-    height: auto;
-    width: 100%x;
-}
-
-.focus-features {
-    padding-left: 30px;
+    height: 508px;
+    width: 100%;
 }
 
 .focus-feature-item {
     position: relative;
-    padding-bottom: 16px;
     margin-bottom: 14px;
     width: 80%;
     padding-bottom: 16px;
